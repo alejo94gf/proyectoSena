@@ -1,0 +1,65 @@
+.dashboard { max-width: 1200px; }
+
+.page-header { margin-bottom: 1.5rem; }
+.page-header h2 { font-size: 1.5rem; font-weight: 700; color: #1e293b; margin: 0; }
+.text-muted { color: #64748b; font-size: 0.9rem; margin: 0.25rem 0 0; }
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+  border-left: 4px solid transparent;
+}
+.card-green { border-left-color: #10b981; }
+.card-red { border-left-color: #ef4444; }
+.card-blue { border-left-color: #3b82f6; }
+.card-orange { border-left-color: #f97316; }
+.card-purple { border-left-color: #8b5cf6; }
+
+.card-icon { font-size: 2rem; }
+.card-label { font-size: 0.8rem; color: #64748b; margin: 0; }
+.card-value { font-size: 1.3rem; font-weight: 700; color: #1e293b; margin: 0.2rem 0 0; }
+.card-sub { font-size: 0.75rem; font-weight: 400; color: #64748b; }
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.panel {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+}
+.panel-title { font-size: 1rem; font-weight: 700; color: #1e293b; margin: 0 0 1rem; }
+
+.movimientos-list { display: flex; flex-direction: column; gap: 0.75rem; }
+.movimiento-item { display: flex; align-items: center; gap: 0.75rem; padding: 0.5rem 0; border-bottom: 1px solid #f1f5f9; }
+.movimiento-item:last-child { border-bottom: none; }
+.mov-icon { font-size: 1.1rem; }
+.mov-info { flex: 1; display: flex; flex-direction: column; }
+.mov-desc { font-size: 0.875rem; font-weight: 500; color: #1e293b; }
+.mov-fecha { font-size: 0.75rem; color: #94a3b8; }
+.mov-monto { font-size: 0.9rem; font-weight: 700; }
+.text-green { color: #10b981; }
+.text-red { color: #ef4444; }
+
+.empty-state { text-align: center; color: #94a3b8; padding: 2rem; font-size: 0.9rem; }
+.page-loading { display: flex; align-items: center; justify-content: center; height: 50vh; color: #64748b; }
+
+@media (max-width: 768px) {
+  .dashboard-grid { grid-template-columns: 1fr; }
+}

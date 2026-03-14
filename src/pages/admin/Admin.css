@@ -1,0 +1,21 @@
+.select-rol {
+  padding: 0.3rem 0.6rem; border: 1.5px solid #e2e8f0;
+  border-radius: 6px; font-size: 0.82rem; outline: none; cursor: pointer;
+}
+.select-rol:focus { border-color: #6366f1; }
+
+.status-badge {
+  display: inline-block; padding: 0.2rem 0.65rem;
+  border-radius: 20px; font-size: 0.78rem; font-weight: 600;
+}
+.status-badge.activo { background: #dcfce7; color: #16a34a; }
+.status-badge.inactivo { background: #fee2e2; color: #dc2626; }
+
+.btn-toggle {
+  padding: 0.35rem 0.8rem; border: none; border-radius: 6px;
+  font-size: 0.8rem; font-weight: 600; cursor: pointer;
+}
+.btn-toggle.desactivar { background: #fee2e2; color: #dc2626; }
+.btn-toggle.desactivar:hover { background: #fecaca; }
+.btn-toggle.activar { background: #dcfce7; color: #16a34a; }
+.btn-toggle.activar:hover { background: #bbf7d0; }

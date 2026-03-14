@@ -1,0 +1,117 @@
+/* Estilos generales */
+
+.inicio {
+    padding: px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HERO */
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #555;
+}
+
+/* SERVICIOS */
+
+.servicios {
+    margin-bottom: 40px;
+}
+
+.servicios h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.servicios-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    background-color: aqua;
+    padding: 20px;
+}
+
+/* TARJETAS */
+
+.card1 {
+    background: rgb(232, 121, 121);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+.card2 {
+    background: rgb(19, 198, 61);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+.card3 {
+    background: rgb(37, 21, 184);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    border-radius: 35px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+}
+
+/* CTA */
+
+.cta {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #eee;
+    border-radius: 8px;
+}
+
+.cta h2 {
+    margin-bottom: 10px;
+}
+
+.cta p {
+    margin-bottom: 20px;
+}
+
+.cta button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta button:hover {
+    background-color: #555;
+}

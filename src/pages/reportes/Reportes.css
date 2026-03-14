@@ -1,0 +1,29 @@
+.chart-panel {
+  background: white; border-radius: 12px;
+  padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+  margin-bottom: 1.25rem;
+}
+.panel-title { font-size: 1rem; font-weight: 700; color: #1e293b; margin: 0 0 1rem; }
+
+.reportes-summary {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; margin-bottom: 1.5rem;
+}
+.summary-item {
+  background: white; border-radius: 12px; padding: 1.25rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+  display: flex; flex-direction: column; gap: 0.4rem;
+}
+.summary-label { font-size: 0.8rem; color: #64748b; font-weight: 500; }
+.summary-value { font-size: 1.4rem; font-weight: 700; }
+
+.select-anio {
+  padding: 0.6rem 1rem; border: 1.5px solid #e2e8f0;
+  border-radius: 8px; font-size: 0.9rem; outline: none;
+  cursor: pointer;
+}
+.select-anio:focus { border-color: #6366f1; }
+
+@media (max-width: 600px) {
+  .reportes-summary { grid-template-columns: 1fr; }
+}

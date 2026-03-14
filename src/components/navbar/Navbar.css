@@ -1,0 +1,51 @@
+/* Navbar.css - Estilos para el componente de navegación */
+
+/* Contenedor principal de la barra de navegación */
+.navbar {
+    display: flex;              /* Activa flexbox para alinear elementos */
+    justify-content: space-between; /* Espacia el logo y los enlaces */
+    align-items: center;        /* Centra verticalmente los elementos */
+    background-color: #111827;  /* Color de fondo oscuro */
+    padding: 0 2rem;            /* Padding horizontal: 0 arriba/abajo, 2rem laterales */
+    height: 70px;               /* Altura fija para la navbar */
+    color: white;               /* Color de texto blanco */
+}
+
+/* Estilos para el logo/izquierda de la navbar */
+.navbar-logo {
+    font-size: 1.5rem;          /* Tamaño de fuente más grande */
+    font-weight: bold;           /* Texto en negrita */
+}
+
+/* Contenedor de la lista de enlaces de navegación */
+.navbar-links {
+    list-style: none;            /* Elimina los puntos de la lista */
+    display: flex;               /* Alinea los elementos en fila */
+    gap: 1.5rem;                 /* Espacio entre cada enlace (1.5rem = 24px) */
+}
+
+/* Estilos para los enlaces dentro de la lista */
+.navbar-links li a {
+    text-decoration: none;       /* Elimina el subrayado de los enlaces */
+    color: white;                /* Color de texto blanco */
+    font-weight: 500;            /* Peso de fuente medio */
+    transition: color 0.3s ease; /* Transición suave al cambiar color */
+}
+
+/* Efecto hover para los enlaces */
+.navbar-links li a:hover {
+    color: #3b82f6;              /* Cambia a azul al pasar el mouse */
+}
+
+/* Estilo especial para el botón de login */
+.login-btn {
+    background-color: #3b82f6;   /* Fondo azul */
+    padding: 0.5rem 1rem;        /* Padding: 0.5rem arriba/abajo, 1rem laterales */
+    border-radius: 6px;          /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar fondo */
+}
+
+/* Efecto hover para el botón de login */
+.login-btn:hover {
+    background-color: #2563eb;   /* Azul más oscuro al pasar el mouse */
+}

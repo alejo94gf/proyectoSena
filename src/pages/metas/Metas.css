@@ -1,0 +1,34 @@
+.metas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+}
+
+.meta-card {
+  background: white; border-radius: 12px;
+  padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+  border: 1.5px solid #e2e8f0; transition: box-shadow 0.15s;
+}
+.meta-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.meta-card.completada { border-color: #10b981; background: #f0fdf4; }
+
+.meta-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem; }
+.meta-nombre { font-size: 1rem; font-weight: 700; color: #1e293b; }
+.badge-completada { font-size: 0.75rem; background: #dcfce7; color: #16a34a; padding: 0.2rem 0.6rem; border-radius: 20px; font-weight: 600; }
+
+.meta-desc { font-size: 0.85rem; color: #64748b; margin: 0 0 0.75rem; }
+
+.meta-progress { margin: 0.75rem 0; }
+.progress-bar { height: 8px; background: #e2e8f0; border-radius: 4px; overflow: hidden; }
+.progress-fill { height: 100%; background: linear-gradient(90deg, #6366f1, #8b5cf6); border-radius: 4px; transition: width 0.3s; }
+.progress-labels { display: flex; justify-content: space-between; font-size: 0.78rem; color: #64748b; margin-top: 0.4rem; }
+
+.meta-fecha { font-size: 0.8rem; color: #94a3b8; margin: 0.5rem 0; }
+
+.meta-actions { display: flex; gap: 0.5rem; align-items: center; margin-top: 0.75rem; }
+.btn-abonar {
+  background: #6366f1; color: white; border: none;
+  padding: 0.45rem 0.9rem; border-radius: 6px;
+  font-size: 0.82rem; font-weight: 600; cursor: pointer; flex: 1;
+}
+.btn-abonar:hover { background: #4f46e5; }
